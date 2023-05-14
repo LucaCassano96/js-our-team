@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital@1&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+h1, p{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+#container{
+    width: 1200px;
+    min-height: 500px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+.card{
+width: 340px;
+height: 400px;
+
+margin-bottom: 60px;
+text-align: center;
+}
+
+.card img{
+    width: 340px;
+    object-fit: cover;
+    
+}
+
+.cardElement_description{
+    padding: 5px;
+    background-color: beige;
+}
+
